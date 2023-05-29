@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "next/core-web-vitals",
+    "next/core-web-vitals"
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -14,6 +14,7 @@ module.exports = {
 
     // Temporary disables
     "@typescript-eslint/ban-ts-comment": "warn",
+    "react/no-unescaped-entities": "off",
 
     // simple-import-sort
     "simple-import-sort/imports": "error",
