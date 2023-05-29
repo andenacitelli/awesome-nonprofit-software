@@ -21,12 +21,11 @@ The website allows you to:
 
 ### Contributing
 
-Contributions are highly encouraged and appreciated.
+Contributions are highly encouraged and appreciated. Merged pull requests will be automatically pushed to the website
+via [Vercel](https://vercel.com/).
 
-For feature requests, bug reports, or general feedback,
-please [create an issue](https://github.com/andenacitelli/awesome-nonprofit-software/issues).
-
-To propose a tool, please create a pull request that does two things:
-
-1. Adds information on the service to `data/products.ts`
-2. Adds a logo to `public/images/`
+- **Feature Requests, Bug Reports, General
+  Feedback:** [Create An Issue](https://github.com/andenacitelli/awesome-nonprofit-software/issues).
+- **New Software:** Create a pull request that does the following two things:
+    1. Adds information on the service to `data/products.ts`
+    2. Adds a logo to `public/images/`
