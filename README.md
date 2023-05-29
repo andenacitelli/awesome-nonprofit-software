@@ -1,11 +1,10 @@
-<div align="center" style="display: flex; align-items: center">
-  <img src="public/favicon/favicon.ico" alt="Site Logo" width="30" height="30">
-  <h3 style="margin-left: 10px;">awesome-nonprofit-software</h3>
+<div style="text-align: center; margin-top: 20px;">
+    <img src="public/favicon/favicon.ico" alt="Site Logo" width="50" height="50">
+    <h3>awesome-nonprofit-software</h3>
+    <b>:fire: Curated list of free/discounted software for nonprofits :fire:</b>
 </div>
 
 ### Overview
-
-**:fire: Curated list of free/discounted software for nonprofits :fire:**
 
 A hand-curated curated list of awesome software for nonprofits and charities. Only includes prominent, widely-used
 software that is either free or significantly discounted for nonprofit usage.
