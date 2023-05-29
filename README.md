@@ -9,6 +9,8 @@
 A hand-curated curated list of awesome software for nonprofits and charities. Only includes prominent, widely-used
 software that is either free or significantly discounted for nonprofit usage.
 
+**This repo is currently in beta.** After the direction of the product stabilizes, the beta label will be removed.
+
 ### Associated Website
 
 [https://awesome-nonprofit-software.vercel.app/](https://awesome-nonprofit-software.vercel.app/)
@@ -18,6 +20,8 @@ The website allows you to:
 - Filter by name
 - Filter by category
 - More to come!
+
+Will get a dedicated domain once out of Beta.
 
 ### Contributing
 
