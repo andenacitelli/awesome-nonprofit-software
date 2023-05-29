@@ -1,0 +1,110 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="BadExpressionStatementJS" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="v-if" />
+            <item index="1" class="java.lang.String" itemvalue="v-else" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.8" />
+            <item index="1" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMissingTypeHintsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="71">
+            <item index="0" class="java.lang.String" itemvalue="xarray" />
+            <item index="1" class="java.lang.String" itemvalue="fasttext" />
+            <item index="2" class="java.lang.String" itemvalue="LunarCalendar" />
+            <item index="3" class="java.lang.String" itemvalue="ephem" />
+            <item index="4" class="java.lang.String" itemvalue="prophet" />
+            <item index="5" class="java.lang.String" itemvalue="darts" />
+            <item index="6" class="java.lang.String" itemvalue="lightgbm" />
+            <item index="7" class="java.lang.String" itemvalue="numba" />
+            <item index="8" class="java.lang.String" itemvalue="cmdstanpy" />
+            <item index="9" class="java.lang.String" itemvalue="tzlocal" />
+            <item index="10" class="java.lang.String" itemvalue="greenlet" />
+            <item index="11" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="12" class="java.lang.String" itemvalue="BTrees" />
+            <item index="13" class="java.lang.String" itemvalue="partd" />
+            <item index="14" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="15" class="java.lang.String" itemvalue="srsly" />
+            <item index="16" class="java.lang.String" itemvalue="fsspec" />
+            <item index="17" class="java.lang.String" itemvalue="spacy" />
+            <item index="18" class="java.lang.String" itemvalue="filelock" />
+            <item index="19" class="java.lang.String" itemvalue="holidays" />
+            <item index="20" class="java.lang.String" itemvalue="pyzmq" />
+            <item index="21" class="java.lang.String" itemvalue="soupsieve" />
+            <item index="22" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="23" class="java.lang.String" itemvalue="dedupe" />
+            <item index="24" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="25" class="java.lang.String" itemvalue="zope.interface" />
+            <item index="26" class="java.lang.String" itemvalue="plac" />
+            <item index="27" class="java.lang.String" itemvalue="catalogue" />
+            <item index="28" class="java.lang.String" itemvalue="attrs" />
+            <item index="29" class="java.lang.String" itemvalue="psutil" />
+            <item index="30" class="java.lang.String" itemvalue="Levenshtein-search" />
+            <item index="31" class="java.lang.String" itemvalue="zope.index" />
+            <item index="32" class="java.lang.String" itemvalue="regex" />
+            <item index="33" class="java.lang.String" itemvalue="cma" />
+            <item index="34" class="java.lang.String" itemvalue="humanize" />
+            <item index="35" class="java.lang.String" itemvalue="msgpack" />
+            <item index="36" class="java.lang.String" itemvalue="dedupe-hcluster" />
+            <item index="37" class="java.lang.String" itemvalue="wasabi" />
+            <item index="38" class="java.lang.String" itemvalue="hijri-converter" />
+            <item index="39" class="java.lang.String" itemvalue="types-pytz" />
+            <item index="40" class="java.lang.String" itemvalue="httplib2" />
+            <item index="41" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="42" class="java.lang.String" itemvalue="llvmlite" />
+            <item index="43" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="44" class="java.lang.String" itemvalue="catboost" />
+            <item index="45" class="java.lang.String" itemvalue="exceptiongroup" />
+            <item index="46" class="java.lang.String" itemvalue="zipp" />
+            <item index="47" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="48" class="java.lang.String" itemvalue="blis" />
+            <item index="49" class="java.lang.String" itemvalue="PyMeeus" />
+            <item index="50" class="java.lang.String" itemvalue="urllib3" />
+            <item index="51" class="java.lang.String" itemvalue="zope.event" />
+            <item index="52" class="java.lang.String" itemvalue="tornado" />
+            <item index="53" class="java.lang.String" itemvalue="tzdata" />
+            <item index="54" class="java.lang.String" itemvalue="ipython" />
+            <item index="55" class="java.lang.String" itemvalue="packaging" />
+            <item index="56" class="java.lang.String" itemvalue="torch" />
+            <item index="57" class="java.lang.String" itemvalue="grpcio-tools" />
+            <item index="58" class="java.lang.String" itemvalue="prometheus-client" />
+            <item index="59" class="java.lang.String" itemvalue="pybind11" />
+            <item index="60" class="java.lang.String" itemvalue="dedupe-variable-datetime" />
+            <item index="61" class="java.lang.String" itemvalue="DoubleMetaphone" />
+            <item index="62" class="java.lang.String" itemvalue="csvmatch" />
+            <item index="63" class="java.lang.String" itemvalue="geventhttpclient" />
+            <item index="64" class="java.lang.String" itemvalue="proto-plus" />
+            <item index="65" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="66" class="java.lang.String" itemvalue="multidict" />
+            <item index="67" class="java.lang.String" itemvalue="thinc" />
+            <item index="68" class="java.lang.String" itemvalue="grpcio" />
+            <item index="69" class="java.lang.String" itemvalue="yarl" />
+            <item index="70" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  </profile>
+</component>
