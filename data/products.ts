@@ -141,8 +141,7 @@ const products: Product[] = [
   },
   {
     name: "Akkio",
-    blurb:
-      "Predictive API platform intended to be simple and easy-to-use for non-technical people.",
+    blurb: "Simple and easy to use Predictive API platform. No code needed!",
     categories: [CATEGORIES.ANALYTICS],
     pricing: "Significantly discounted or free for nonprofits.",
     logoUrl: "/images/akkio.avif",

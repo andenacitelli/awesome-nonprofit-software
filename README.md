@@ -4,6 +4,8 @@
     <b>:fire: Curated list of free/discounted software for nonprofits :fire:</b>
 </div>
 
+---
+
 *I work for [Akkio](https://www.akkio.com/), a predictive AI platform geared towards Data Analysts. If you're looking
 for predictive AI without needing any data science knowledge, check us out!*
 
