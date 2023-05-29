@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
@@ -37,7 +38,8 @@
     "eslint-config-next": "^13.4.4",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "husky": "^8.0.0"
   },
   "ct3aMetadata": {
     "initVersion": "7.13.1"
