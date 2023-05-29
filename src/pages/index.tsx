@@ -9,6 +9,7 @@ import { SearchForm } from "@/components/search-form";
 import { useStore } from "@/store";
 
 import { PRODUCTS } from "../../data/products";
+import { CATEGORIES } from "../../data/types";
 
 const Home: NextPage = () => {
   const { filters } = useStore();
@@ -27,6 +28,11 @@ const Home: NextPage = () => {
       }
 
       return true;
+    }).sort((a, b) => {
+      return (
+        Object.values(CATEGORIES).indexOf(a.categories[0]) -
+        Object.values(CATEGORIES).indexOf(b.categories[0])
+      );
     });
   }, [filters]);
 
