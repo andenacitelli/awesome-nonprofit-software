@@ -139,6 +139,23 @@ const products: Product[] = [
     logoUrl: "/images/wix.png",
     url: "https://www.techsoup.org/wix",
   },
+  {
+    name: "Akkio",
+    blurb:
+      "Predictive API platform intended to be simple and easy-to-use for non-technical people.",
+    categories: [CATEGORIES.ANALYTICS],
+    pricing: "Significantly discounted or free for nonprofits.",
+    logoUrl: "/images/akkio.avif",
+    url: "https://www.akkio.com/",
+  },
+  {
+    name: "Google Analytics",
+    blurb: "Free, popular website analytics tool.",
+    categories: [CATEGORIES.ANALYTICS],
+    pricing: "Free.",
+    logoUrl: "/images/google-analytics.png",
+    url: "https://analytics.google.com/",
+  },
 ];
 
 export const PRODUCTS = z.array(ProductSchema).parse(products);

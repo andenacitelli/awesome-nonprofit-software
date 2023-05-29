@@ -8,6 +8,7 @@ export enum CATEGORIES {
   EMAIL = "Email",
   MARKETING_AND_SOCIAL = "Marketing & Social",
   WEBSITE = "Website",
+  ANALYTICS = "Analytics",
   OTHER = "Other",
 }
 
