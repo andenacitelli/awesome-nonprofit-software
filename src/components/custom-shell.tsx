@@ -63,22 +63,20 @@ const CustomHeader = ({
 }) => {
   const theme = useMantineTheme();
   return (
-    <Header height={{ base: 50, md: 70 }} p="md">
+    <Header height={50} p="md">
       <div style={{ display: "flex", alignItems: "center", height: "100%" }}>
         <MediaQuery largerThan="sm" styles={{ display: "none" }}>
           <Burger
             opened={opened}
-            onClick={() => setOpened((o) => !o)}
+            onClick={() => setOpened((o: any) => !o)}
             size="sm"
             color={theme.colors.gray[6]}
             mr="xl"
           />
         </MediaQuery>
 
-        <Group>
-          <ThemeIcon variant={"light"}>
-            <IconHeartHandshake />
-          </ThemeIcon>
+        <Group spacing={"xs"}>
+          <IconHeartHandshake />
           <Text weight={600}>Awesome Nonprofit Software</Text>
         </Group>
       </div>
@@ -87,12 +85,7 @@ const CustomHeader = ({
 };
 const CustomNavbar = ({ opened }: { opened: boolean }) => {
   return (
-    <Navbar
-      p="xs"
-      hiddenBreakpoint="sm"
-      hidden={!opened}
-      width={{ sm: 200, lg: 300 }}
-    >
+    <Navbar p="xs" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 200 }}>
       <NavbarLink icon={<IconSearch />} link={"/"} label={"Search"} />
     </Navbar>
   );
@@ -106,8 +99,7 @@ export const CustomShell = ({
   const [opened, setOpened] = useState(false);
   return (
     <AppShell
-      padding="md"
-      navbar={<CustomNavbar opened={opened} />}
+      padding={0}
       header={<CustomHeader opened={opened} setOpened={setOpened} />}
       styles={(theme) => ({
         main: {
