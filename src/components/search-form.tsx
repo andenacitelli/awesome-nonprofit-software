@@ -16,7 +16,7 @@ export const SearchForm = () => {
 
   useEffect(() => {
     setFilters(form.values);
-  }, [form.values]);
+  }, [setFilters, form.values]);
 
   return (
     <Stack styles={{ borderRight: "1px gray solid" }}>

@@ -1,58 +1,14 @@
 import {
-  Anchor,
   AppShell,
   Burger,
   Group,
   Header,
   MediaQuery,
-  Navbar,
   Text,
-  ThemeIcon,
-  UnstyledButton,
   useMantineTheme,
 } from "@mantine/core";
-import { IconHeartHandshake, IconSearch } from "@tabler/icons-react";
+import { IconHeartHandshake } from "@tabler/icons-react";
 import { ReactNode, useState } from "react";
-
-interface MainLinkProps {
-  icon: ReactNode;
-  label: string;
-  link: string;
-}
-
-const NavbarLink = ({ icon, label, link }: MainLinkProps) => {
-  return (
-    <Anchor
-      href={link}
-      color="gray"
-      size="lg"
-      style={{ textDecoration: "none" }}
-    >
-      <UnstyledButton
-        sx={(theme) => ({
-          display: "block",
-          width: "100%",
-          padding: theme.spacing.xs,
-          borderRadius: theme.radius.sm,
-          color:
-            theme.colorScheme === "dark" ? theme.colors.dark[0] : theme.black,
-
-          "&:hover": {
-            backgroundColor:
-              theme.colorScheme === "dark"
-                ? theme.colors.dark[6]
-                : theme.colors.gray[0],
-          },
-        })}
-      >
-        <Group>
-          <ThemeIcon variant="light">{icon}</ThemeIcon>
-          <Text>{label}</Text>
-        </Group>
-      </UnstyledButton>
-    </Anchor>
-  );
-};
 
 const CustomHeader = ({
   opened,
@@ -81,13 +37,6 @@ const CustomHeader = ({
         </Group>
       </div>
     </Header>
-  );
-};
-const CustomNavbar = ({ opened }: { opened: boolean }) => {
-  return (
-    <Navbar p="xs" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 200 }}>
-      <NavbarLink icon={<IconSearch />} link={"/"} label={"Search"} />
-    </Navbar>
   );
 };
 
