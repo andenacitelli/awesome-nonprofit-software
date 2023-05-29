@@ -1,4 +1,4 @@
-<div style="text-align: center; margin-top: 20px;">
+<div align="center" style="text-align: center; margin-top: 20px;">
     <img src="public/favicon/favicon.ico" alt="Site Logo" width="50" height="50">
     <h3>awesome-nonprofit-software</h3>
     <b>:fire: Curated list of free/discounted software for nonprofits :fire:</b>
