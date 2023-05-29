@@ -160,7 +160,7 @@ const products: Product[] = [
   {
     name: "Asana",
     blurb: "Project management system.",
-    categories: [CATEGORIES.PROJECT_MANAGEMENT],
+    categories: [CATEGORIES.DOCUMENTATION_AND_PROJECT_MANAGEMENT],
     pricing: "50% off.",
     logoUrl: "/images/asana.svg",
     url: "https://asana.com/nonprofit",
@@ -168,7 +168,7 @@ const products: Product[] = [
   {
     name: "Trello",
     blurb: "Kanban-based project management system built by Atlassian.",
-    categories: [CATEGORIES.PROJECT_MANAGEMENT],
+    categories: [CATEGORIES.DOCUMENTATION_AND_PROJECT_MANAGEMENT],
     pricing: "Significant discounts for Nonprofits.",
     logoUrl: "/images/trello.png",
     url: "https://support.atlassian.com/trello/docs/non-profit-and-educational-discounts/",
@@ -176,7 +176,7 @@ const products: Product[] = [
   {
     name: "Evernote",
     blurb: "Note-taking and organization tool.",
-    categories: [CATEGORIES.DOCUMENTATION],
+    categories: [CATEGORIES.DOCUMENTATION_AND_PROJECT_MANAGEMENT],
     pricing: "75% off.",
     logoUrl: "/images/evernote.png",
     url: "https://help.evernote.com/hc/en-us/articles/208314258-NGO-and-non-profit-discounts-for-Evernote-Teams",
@@ -185,9 +185,25 @@ const products: Product[] = [
     name: "Notion",
     blurb:
       "Flexible and powerful documentation, wiki, and project management tool.",
-    categories: [CATEGORIES.DOCUMENTATION, CATEGORIES.PROJECT_MANAGEMENT],
+    categories: [CATEGORIES.DOCUMENTATION_AND_PROJECT_MANAGEMENT],
     pricing: "50% off.",
     logoUrl: "/images/notion.png",
+    url: "https://www.notion.so/nonprofits",
+  },
+  {
+    name: "Google Workspace",
+    blurb: "Powerful, popular business app suite.",
+    categories: [CATEGORIES.EMAIL],
+    pricing: "Free for registered nonprofits.",
+    logoUrl: "/images/google-workspace.png",
+    url: "https://www.google.com/nonprofits/offerings/workspace/",
+  },
+  {
+    name: "Todoist",
+    blurb: "Flexible and powerful TODO lists.",
+    categories: [CATEGORIES.DOCUMENTATION_AND_PROJECT_MANAGEMENT],
+    pricing: "50% off.",
+    logoUrl: "/images/todoist.png",
     url: "https://www.notion.so/nonprofits",
   },
   {
