@@ -26,6 +26,15 @@ const products: Product[] = [
     url: "https://www.techsoup.org/intuit-software-nonprofits",
   },
   {
+    name: "Xero",
+    blurb:
+      "Xero is a cloud-based accounting software for small and medium-sized businesses.",
+    categories: [CATEGORIES.ACCOUNTING],
+    pricing: "25% discount for nonprofits and charities.",
+    logoUrl: "/images/xero.png",
+    url: "https://www.xero.com/us/small-businesses/non-profit/",
+  },
+  {
     name: "Stripe",
     blurb:
       "Stripe is a technology company that builds economic infrastructure for the internet. Businesses of every size—from new startups to public companies—use their software to accept payments and manage their businesses online.",
@@ -33,6 +42,15 @@ const products: Product[] = [
     pricing: "Heavily discounted rates for Nonprofits.",
     logoUrl: "/images/stripe.jpg",
     url: "https://support.stripe.com/questions/fee-discount-for-nonprofit-organizations",
+  },
+  {
+    name: "PayPal",
+    blurb:
+      "PayPal is an online payment system that supports online money transfers and serves as an electronic alternative to traditional paper methods like checks and money orders.",
+    categories: [CATEGORIES.PAYMENT_PROCESSING],
+    pricing: "Heavily discounted rates for Nonprofits.",
+    logoUrl: "/images/paypal.png",
+    url: "https://www.paypal.com/us/brc/article/how-to-set-up-a-nonprofit-account-with-paypal",
   },
   {
     name: "Zoho",
@@ -138,6 +156,39 @@ const products: Product[] = [
     pricing: "70% off for 2 years via TechSoup.",
     logoUrl: "/images/wix.png",
     url: "https://www.techsoup.org/wix",
+  },
+  {
+    name: "Asana",
+    blurb: "Project management system.",
+    categories: [CATEGORIES.PROJECT_MANAGEMENT],
+    pricing: "50% off.",
+    logoUrl: "/images/asana.svg",
+    url: "https://asana.com/nonprofit",
+  },
+  {
+    name: "Trello",
+    blurb: "Kanban-based project management system built by Atlassian.",
+    categories: [CATEGORIES.PROJECT_MANAGEMENT],
+    pricing: "Significant discounts for Nonprofits.",
+    logoUrl: "/images/trello.png",
+    url: "https://support.atlassian.com/trello/docs/non-profit-and-educational-discounts/",
+  },
+  {
+    name: "Evernote",
+    blurb: "Note-taking and organization tool.",
+    categories: [CATEGORIES.DOCUMENTATION],
+    pricing: "75% off.",
+    logoUrl: "/images/evernote.png",
+    url: "https://help.evernote.com/hc/en-us/articles/208314258-NGO-and-non-profit-discounts-for-Evernote-Teams",
+  },
+  {
+    name: "Notion",
+    blurb:
+      "Flexible and powerful documentation, wiki, and project management tool.",
+    categories: [CATEGORIES.DOCUMENTATION, CATEGORIES.PROJECT_MANAGEMENT],
+    pricing: "50% off.",
+    logoUrl: "/images/notion.png",
+    url: "https://www.notion.so/nonprofits",
   },
   {
     name: "Akkio",

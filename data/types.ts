@@ -10,6 +10,8 @@ export enum CATEGORIES {
   WEBSITE = "Website",
   ANALYTICS = "Analytics",
   OTHER = "Other",
+  PROJECT_MANAGEMENT = "Project Management",
+  DOCUMENTATION = "Documentation",
 }
 
 export const ProductSchema = z.object({
