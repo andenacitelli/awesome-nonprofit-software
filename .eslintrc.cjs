@@ -14,7 +14,6 @@ module.exports = {
 
     // Temporary disables
     "@typescript-eslint/ban-ts-comment": "warn",
-    "react/no-unescaped-entities": "off",
 
     // simple-import-sort
     "simple-import-sort/imports": "error",

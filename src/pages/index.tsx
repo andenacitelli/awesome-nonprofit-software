@@ -1,7 +1,6 @@
-import styles from "./index.module.css";
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
+import { CustomShell } from "@/components/custom-shell";
 
 const Home: NextPage = () => {
   return (
@@ -11,8 +10,9 @@ const Home: NextPage = () => {
         <meta name="description" content="Awesome Nonprofit Software" />
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
-      <main>
-      </main>
+      <CustomShell>
+        <div></div>
+      </CustomShell>
     </>
   );
 };
